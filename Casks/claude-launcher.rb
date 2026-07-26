@@ -1,6 +1,6 @@
 cask "claude-launcher" do
   version "1.0.0"
-  sha256 :no_check
+  sha256 "fcf3efdf3e10cc5e1f487c530e63adc0e75de590ac240c67e0fff3d521bbeeae"
 
   url "https://github.com/jamisonhill/claude-launcher/releases/download/v#{version}/Claude-Launcher-#{version}.dmg"
   name "Claude Launcher"
@@ -12,7 +12,7 @@ cask "claude-launcher" do
 
   app "ClaudeLauncher.app"
 
-  # Leaves the curated project library alone unless the user explicitly zaps.
+  # Leaves the user's curated library alone unless they explicitly `brew zap`.
   zap trash: [
     "~/Library/Application Support/ClaudeLauncher",
   ]
