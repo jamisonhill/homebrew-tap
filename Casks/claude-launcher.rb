@@ -1,6 +1,6 @@
 cask "claude-launcher" do
-  version "1.0.2"
-  sha256 "fa2fdc4151c79ad779ecdf73dbbbc16598c5cabc531f0ba132ec949c0d76abb1"
+  version "1.0.3"
+  sha256 "6b439ad35b220d4ca0c1f6c47b3334d6845a477f4c6eb05cdadc7f0d971e34bd"
 
   url "https://github.com/jamisonhill/claude-launcher/releases/download/v#{version}/Claude-Launcher-#{version}.dmg"
   name "Claude Launcher"
